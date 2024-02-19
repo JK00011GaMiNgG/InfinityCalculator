@@ -182,8 +182,6 @@ eulersNumberSymbol = ctk.CTkImage(light_image=eulersNumberSymbol, dark_image=eul
 eulersNumberButton = ctk.CTkButton(calculator, text="", image=eulersNumberSymbol, width=50, height=50)
 eulersNumberButton.grid(row=7, column=1, padx=6, pady=6)
 
-calculator.mainloop()
-
 # with open("settings_button.png", "rb") as file:
 #     settingsData = file.read()
 
@@ -192,3 +190,5 @@ calculator.mainloop()
 
 # settingsButton = ctk.CTkButton(calculator, text="", image=settingsSymbol, width=50, height=50)
 # settingsButton.grid(row=0, column=7, padx=6, pady=6)
+
+calculator.mainloop()
